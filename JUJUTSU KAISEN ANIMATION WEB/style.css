@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gojo, .sukuna, .yuta{
+    height: 60%;
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-70%, -70%);
+}
+/*SECTION background*/
+.s1 {
+    background-image: url(./gojo/poster.jpg);
+    background-size: cover;
+}
+.s2 {
+    background: linear-gradient(to left top, #5f5a5a, rgb(53, 38, 38));
+}
+.s3{
+    background: linear-gradient(to right top, rgb(24, 22, 22),rgb(44, 42, 42));
+}
+.s4{
+    background: linear-gradient(to right bottom, rgb(102, 57, 57),rgb(43, 17, 17));
+}
+/*akhir SECTION background*/
+
+.section h1{
+    font-size: 64px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    /*background: linear-gradient(to left, #87c7df, #648896);*/
+    background: linear-gradient(to left, #861313, #a71414);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/*awal SECTION H1*/
+.s1 h1 {
+    font-size: 48px;
+    background: linear-gradient(to left top, rgba(2,0,36,1) 0%, rgba(231,56,39,1) 0%, rgba(248,80,50,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.s2 h1 {
+    font-size: 48px;
+    background: linear-gradient(to left top, #b2eaff 0, #5389f2 50%, #003265 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.s3 h1 {
+    font-size: 48px;
+    background: linear-gradient(to left top, rgba(2,0,36,1) 0%, rgba(147,41,30,1) 0%, rgba(237,33,58,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.s4 h1 {
+    font-size: 48px;
+    background: linear-gradient(to left top, rgba(2,0,36,1) 0%, rgba(101,78,163,1) 0%, rgba(224,170,193,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*akhir SECTION H1*/
+
+/*awal SECTION p*/
+.s2 p{
+    color: whitesmoke;
+}
+
+.s3 p{
+    color: white;
+}
+
+
+.s4 p{
+    color: white;
+}
+
+.description {
+    margin: 20%;
+    width: 50%;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.description p {
+    margin: 50px 0px;
+}
+/*akhir SECTION p*/
